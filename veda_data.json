@@ -1,0 +1,58 @@
+{
+    "programs": [
+        {
+            "id": 1,
+            "name": "AI Development",
+            "description": "Artificial Intelligence solutions",
+            "status": "Active"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "name": "Web Development",
+            "description": "Website design and development",
+            "status": "Active"
+        }
+    ],
+    "training": [
+        {
+            "id": 1,
+            "name": "Python Training",
+            "description": "Python programming course",
+            "status": "Active"
+        }
+    ],
+    "internships": [
+        {
+            "id": 1,
+            "name": "Software Internship",
+            "description": "Practical software development training",
+            "status": "Active"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Rahul",
+            "description": "Customer interested in web development",
+            "status": "Active"
+        }
+    ],
+    "inquiries": [
+        {
+            "id": 1,
+            "name": "Course Inquiry",
+            "description": "Inquiry about Python training",
+            "status": "Pending"
+        }
+    ],
+    "requests": [
+        {
+            "id": 1,
+            "name": "Website Support",
+            "description": "Customer requested website maintenance",
+            "status": "Pending"
+        }
+    ]
+}

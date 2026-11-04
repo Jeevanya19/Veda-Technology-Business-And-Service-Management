@@ -1,0 +1,101 @@
+Veda Technology Management System
+
+Project Description
+
+Veda Technology Management System is a Python-based application designed to represent the operations of a technology and digital-services organization.
+
+It helps manage technology programs, digital services, training programs, internship programs, customers, customer inquiries, and service requests using a simple menu-driven interface.
+
+Features
+
+- Add and manage technology programs.
+- Manage digital services.
+- Store training and internship program details.
+- Maintain customer records.
+- Manage customer inquiries.
+- Track service requests.
+- Search records using keywords.
+- Filter records based on status.
+- Update record status.
+- Store data permanently using JSON files.
+- Handle invalid inputs and missing records.
+
+Technologies Used
+
+- Python 3
+- JSON (data storage)
+- Lists and Dictionaries
+- Object-Oriented Programming (OOP)
+
+Project Structure
+
+Veda-Technology/
+│
+├── veda_technology.py
+├── veda_data.json
+└── README.md
+
+Installation and Execution
+
+1. Install Python 3 on your computer.
+2. Download or clone this project.
+3. Open the project folder in VS Code or Python IDLE.
+4. Run the following command:
+
+python veda_technology.py
+
+5. Select the required option from the menu.
+
+How It Works
+
+The application displays a main menu containing seven management categories.
+
+Users can:
+
+1. Add new records.
+2. View existing records.
+3. Search for specific records.
+4. Filter records by status.
+5. Update record status.
+6. Return to the main menu.
+
+All records are automatically stored in a JSON file, allowing data to remain available between program executions.
+
+Sample Data
+
+The application includes synthetic sample records such as:
+
+- AI Development
+- Web Development
+- Python Training
+- Software Internship
+- Customer inquiries
+- Website support requests
+
+Data Storage
+
+The project uses JSON format to store records.
+
+The "veda_data.json" file is automatically created and updated whenever records are added or modified.
+
+Error Handling
+
+The application handles:
+
+- Invalid menu choices.
+- Empty input fields.
+- Incorrect record IDs.
+- Missing records.
+- JSON file reading and writing errors.
+
+Future Enhancements
+
+- Add customer login and authentication.
+- Generate reports.
+- Add date-based filtering.
+- Develop a graphical user interface.
+- Connect the application to a database.
+
+Conclusion
+
+The Veda Technology Management System provides a simple and effective way to manage the basic operations of a technology and digital-services organization using Python. It demonstrates object-oriented programming, data management, searching, filtering, JSON storage, and exception handling.
